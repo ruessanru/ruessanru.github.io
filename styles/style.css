@@ -30,9 +30,23 @@ p[class]{
 img {
     display: block;
     margin: 0 auto;
+    cursor:pointer;
 }
 p, li{
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+}
+button{
+    padding:15px;
+    border:0;
+    border-radius: 5px;
+    background-color:#00539f;
+    color:#ff9500;
+    display:flex;
+    margin: 30px auto;
+}
+button:hover{
+    background-color: #2c3238;
+    font-weight: bold;
 }
