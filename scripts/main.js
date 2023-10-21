@@ -18,7 +18,7 @@ let miBoton = document.querySelector("button");
 let miTitulo = document.querySelector("h1");
 
 function estableceNombreUsuario() {
-    let miNombre = prompt("Introduzca su nombre.");
+    let miNombre = prompt("Introduce tu nombre, para personalizar la página.");
     if (!miNombre) {
         estableceNombreUsuario();
     } else {
