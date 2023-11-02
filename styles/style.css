@@ -32,12 +32,43 @@ img {
     display: block;
     margin: 0 auto;
     cursor:pointer;
+
+}
+.shadow{
+    border-radius: 5px;
+    box-shadow: 14px 14px 20px 0 rgba(32,32,32,0.3);
 }
 p, li{
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
 }
+#imag-episodio{
+    width:200px;
+    height: 130px;
+    margin: 40px auto;
+
+}
+
+.pardo{
+    float:right;
+    width:20%;
+    margin:10px;
+}
+.panda{
+    float:left;
+    width:30%;
+   
+    margin:20px;
+    transform:rotate(-10deg);
+}
+.polar{
+    float:right;
+    width:30%;
+    transform:rotate(10deg);
+    margin:10px;
+}
+
 button{
     padding:15px;
     border:0;

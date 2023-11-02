@@ -1,9 +1,4 @@
-/*const miTitulo = document.querySelector("h1");
-miTitulo.textContent = "¡Hola mundo!";*/
 
-/*document.querySelector("html").onclick = function () {
-    alert("¡Ouch! ¡Deja de pincharme!");
-};*/
 let miImage = document.querySelector("img");
 miImage.onclick = function () {
   let miSrc = miImage.getAttribute("src");
